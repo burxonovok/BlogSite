@@ -15,6 +15,7 @@ class NewCommentNotification extends Notification
     /**
      * Create a new notification instance.
      */
+    
     public function __construct(protected Post $post)
     {
         //
