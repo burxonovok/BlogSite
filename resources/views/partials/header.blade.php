@@ -21,6 +21,7 @@
             </div>
 
             @if (auth()->check())
+            
                 <!-- Notification and Profile Menu -->
 
                 <div class="hidden sm:ml-6 sm:flex sm:items-center">
