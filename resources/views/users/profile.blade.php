@@ -3,7 +3,7 @@
 @section('title', 'User\'s Profile')
 
 @section('content')
-    <!-- Main content -->
+   
     <main class="flex-grow container mx-auto px-4 py-8">
         <div class="max-w-4xl mx-auto">
             <div class="bg-white p-6 rounded-lg shadow-md mb-6">
