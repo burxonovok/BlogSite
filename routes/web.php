@@ -7,7 +7,7 @@ use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [AuthController::class,'index'])->name('home');
+Route::get('/', [AuthController::class,'index'])->name('home'); 
 
 Route::get('/register', [AuthController::class,'registerForm'])->name('registerForm');
 Route::post('/register', [AuthController::class,'handleRegister'])->name('handleRegister');
