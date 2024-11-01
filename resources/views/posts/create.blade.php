@@ -3,7 +3,7 @@
 @section('title', 'Create Post')
 
 @section('content')
-     <!-- Main content -->
+     
      <main class="flex-grow container mx-auto px-4 py-8">
         <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
             <h1 class="text-2xl font-bold mb-6">Create New Post</h1>
