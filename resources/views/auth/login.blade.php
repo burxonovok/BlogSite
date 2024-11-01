@@ -5,7 +5,7 @@
 @section('content')
     <!-- Main content -->
 
-    <main class="flex-grow flex items-center justify-center">
+    <main class="flex-grow flex items-center justify-center"> 
 
         <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
             <h1 class="text-2xl font-bold mb-6 text-center">Login</h1>
