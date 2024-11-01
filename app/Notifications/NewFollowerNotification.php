@@ -17,7 +17,7 @@ class NewFollowerNotification extends Notification
      */
     public function __construct(protected $user)
     {
-        //
+        // 
     }
 
     /**
