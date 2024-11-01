@@ -18,9 +18,14 @@
     </main>
 
     @include('partials.footer')
-head
+<head>
 
 
 </body>
 
-</html>
+</head>
+
+
+
+
+
