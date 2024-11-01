@@ -32,6 +32,7 @@ class CommentController extends Controller
         if(Auth::id() !== $comment->user_id){
             abort(403);
         }
+        
         $comment->delete();
         return redirect()->route('posts.show', $comment->post_id);
     }
