@@ -11,6 +11,7 @@ class Post extends Model
         'title',
         'description'
     ] ;
+    
 
     public function image(){
         return $this->morphOne(Image::class,'imageable');
